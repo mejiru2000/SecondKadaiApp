@@ -14,6 +14,7 @@
 		F29894B71E3A28A300F8674D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29894B51E3A28A300F8674D /* LaunchScreen.storyboard */; };
 		F29894C21E3A28A400F8674D /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29894C11E3A28A400F8674D /* SecondKadaiAppTests.swift */; };
 		F29894CD1E3A28A400F8674D /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29894CC1E3A28A400F8674D /* SecondKadaiAppUITests.swift */; };
+		F29894DB1E3A2B2D00F8674D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29894DA1E3A2B2D00F8674D /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F29894C81E3A28A400F8674D /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29894CC1E3A28A400F8674D /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		F29894CE1E3A28A400F8674D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29894DA1E3A2B2D00F8674D /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = SecondKadaiApp/ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		F29894A01E3A28A300F8674D = {
 			isa = PBXGroup;
 			children = (
+				F29894DA1E3A2B2D00F8674D /* ResultViewController.swift */,
 				F29894AB1E3A28A300F8674D /* SecondKadaiApp */,
 				F29894C01E3A28A400F8674D /* SecondKadaiAppTests */,
 				F29894CB1E3A28A400F8674D /* SecondKadaiAppUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				F29894AF1E3A28A300F8674D /* ViewController.swift in Sources */,
 				F29894AD1E3A28A300F8674D /* AppDelegate.swift in Sources */,
+				F29894DB1E3A2B2D00F8674D /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
